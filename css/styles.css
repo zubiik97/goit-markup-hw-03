@@ -71,6 +71,19 @@ ul{
     list-style: none;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
     .logo
     {
         margin-right: 76px;
@@ -274,7 +287,7 @@ border-radius: 0px 0px 4px 4px;
 }
 .photo-padding:not(:last-child){
 margin-right: 24px;
-padding-bottom: 32px;
+
 }
 
 .our-team{
@@ -283,7 +296,8 @@ padding-bottom: 32px;
     padding-bottom: 120px;
 }
 .photo-fone{
-   
+   padding-top: 32px;
+   padding-bottom: 32px;
     width: 264px;
 }
 
@@ -308,7 +322,7 @@ letter-spacing: 0.02em;
 .our-team .secondary-title{
 padding-top: 0;
 
-    margin-top: 32px;
+   
     margin-bottom: 8px;
     font-weight: 500;
 font-size: 20px;
@@ -335,10 +349,9 @@ padding-top: 96px;
 padding-bottom: 120px;
 }
 
-.filters-h{
-    margin: 0;
-    color: transparent;
-}
+
+   
+
 .filter-buttons{
     text-align: center;
     margin-bottom: 72px;
